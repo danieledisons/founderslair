@@ -1,0 +1,52 @@
+.overview_panel img{
+    width: 25%;
+    border-radius: 5px;
+}
+
+.overview_panel{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+    background-color: var(--background-color-light);
+
+    transition: transform 200ms ease-in-out;
+}
+
+.overview_panel:hover{
+    transform: translateY(-4px);
+
+}
+
+.overview_name{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.overview_deadline_label{
+    font-size: 14px;
+    color: var(--text-secondary);
+
+}
+
+.overview_type_label{
+    font-size: 14px;
+    color: var(--text-secondary);
+
+}
+
+.overview_numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.overview_teaser{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+
+}
+
